@@ -14,7 +14,7 @@ Loop {
 } Until ErrorLevel = 0
 
 
-Loop, 30 {
+Loop {
 
 
 	Mousemove, 720, 710, 0
@@ -63,8 +63,11 @@ else {
 	Loop {
 		ImageSearch,,, 867, 162, 965, 211, C:\Users\Bryant\Desktop\MSscript\pickhelper.png
 	} Until ErrorLevel = 0
-	Click 720, 385
-	Click 720, 506
+	Click 720, 405
+	Click 720, 485
+	Click 720, 570
+	Click 720, 630
+	Click 720, 770
 
 
 	Loop {
@@ -108,8 +111,7 @@ else {
 
 
 }
-Shutdown, 1+8
-Shutdown, 1+8
+
 
 ;Done:
 Send {Esc}
